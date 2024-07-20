@@ -1,16 +1,9 @@
-# api_call
+#Flutter REST API Call
+This project demonstrates how to make REST API calls in a Flutter application. The application fetches, displays, and interacts with data from a RESTful web service.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#Features
+HTTP Requests: Utilizes the http package to perform HTTP requests to a REST API.
+JSON Parsing: Parses JSON responses from the API to Dart objects using jsonDecode.
+State Management: Manages application state using setState for a clean and maintainable codebase.
+Asynchronous Programming: Handles asynchronous operations using Future and async/await.
+Error Handling: Implements robust error handling for network requests and API responses.
